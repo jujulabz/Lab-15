@@ -24,4 +24,10 @@ for degree in range(0, 361):
     x_values.append(degree)
     y_values.append(math.sin(radians))
 
+plt.plot(x_values, y_values)
+plt.title("Sine Wave")
+plt.xlabel("Degrees")
+plt.ylabel("sin(x)")
+plt.grid(True)
 
+plt.savefig("sine_wave.png")
