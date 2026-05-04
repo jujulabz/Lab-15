@@ -19,3 +19,9 @@ import math
 x_values = []
 y_values = []
 
+for degree in range(0, 361):
+    radians = math.radians(degree)
+    x_values.append(degree)
+    y_values.append(math.sin(radians))
+
+
